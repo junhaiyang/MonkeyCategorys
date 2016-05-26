@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "MonkeyCategorys"
-  s.version      = "1.0"
+  s.version      = "1.0.2"
   s.summary      = "MonkeyCategorys Sample Task....."
  
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.framework = 'UIKit'
  
-  s.source = { :git => 'https://github.com/junhaiyang/MonkeyCategorys.git' , :tag => '1.0.1'} 
+  s.source = { :git => 'https://github.com/junhaiyang/MonkeyCategorys.git' , :tag => '1.0.2'} 
  
   s.requires_arc = true
 
@@ -58,13 +58,13 @@ Pod::Spec.new do |s|
           
   end
 
-  s.subspec 'UIResponder(Interceptor)' do |ds|
+  s.subspec 'UIResponder+Interceptor' do |ds|
     
-    ds.source_files = 'UIResponder(Interceptor)/*.{h,m,mm}' 
+    ds.source_files = 'UIResponder+Interceptor/*.{h,m,mm}' 
 
     ds.subspec 'ExtInterceptor' do |ks|
     
-      ks.source_files = 'UIResponder(Interceptor)/ExtInterceptor/*.{h,m,mm}' 
+      ks.source_files = 'UIResponder+Interceptor/ExtInterceptor/*.{h,m,mm}' 
           
     end
           
