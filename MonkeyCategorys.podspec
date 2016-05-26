@@ -64,13 +64,13 @@ Pod::Spec.new do |s|
 
     ds.subspec 'ExtInterceptor' do |ks|
     
-      ks.source_files = 'ViewController/ExtInterceptor/*.{h,m,mm}' 
+      ks.source_files = 'UIResponder(Interceptor)/ExtInterceptor/*.{h,m,mm}' 
           
     end
           
   end
   
-  s.dependency 'Reachability' 
+  s.dependency 'Reachability' , '3.2'
    
  
 end
