@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.framework = 'UIKit'
  
-  s.source = { :git => 'https://github.com/junhaiyang/MonkeyCategorys.git' , :tag => '1.0'} 
+  s.source = { :git => 'https://github.com/junhaiyang/MonkeyCategorys.git' , :tag => '1.0.1'} 
  
   s.requires_arc = true
 
